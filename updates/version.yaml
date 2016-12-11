@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table lovata_youvegotmail_categories'
+    - builder_table_create_lovata_youvegotmail_categories.php
+1.0.3:
+    - 'Created table lovata_youvegotmail_mailings'
+    - builder_table_create_lovata_youvegotmail_mailings.php
+1.0.4:
+    - 'Created table lovata_youvegotmail_subscribers'
+    - builder_table_create_lovata_youvegotmail_subscribers.php
+1.0.5:
+    - 'Created table lovata_youvegotmail_category_subscriber'
+    - builder_table_create_lovata_youvegotmail_category_subscriber.php

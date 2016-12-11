@@ -1,0 +1,33 @@
+columns:
+    name:
+        label: 'lovata.youvegotmail::lang.fields.name'
+        type: text
+        searchable: true
+        sortable: true
+    title:
+        label: 'lovata.youvegotmail::lang.fields.mail_title'
+        type: text
+        searchable: true
+    category:
+        label: 'lovata.youvegotmail::lang.fields.category'
+        searchable: true
+        relation: category
+        valueFrom: name
+        sortable: true
+    id:
+        label: 'lovata.youvegotmail::lang.fields.id'
+        type: text
+        sortable: true
+        width: 100px
+    created_at:
+        label: 'lovata.youvegotmail::lang.fields.created_at'
+        type: datetime
+        sortable: true
+        format: Y-m-d H:i:s
+        invisible: true
+    updated_at:
+        label: 'lovata.youvegotmail::lang.fields.updated_at'
+        type: datetime
+        sortable: true
+        format: Y-m-d H:i:s
+        invisible: true

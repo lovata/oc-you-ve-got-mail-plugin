@@ -1,0 +1,15 @@
+name: Subscribers
+modelClass: Lovata\YouVeGotMail\Models\Subscriber
+form: $/lovata/youvegotmail/models/subscriber/fields.yaml
+defaultRedirect: lovata/youvegotmail/subscribers
+create:
+    title: 'lovata.youvegotmail::lang.title.user_create'
+    redirect: 'lovata/youvegotmail/subscribers/update/:id'
+    redirectClose: lovata/youvegotmail/subscribers
+    flashSave: 'lovata.youvegotmail::lang.messages.user_create'
+update:
+    title: 'lovata.youvegotmail::lang.title.user_update'
+    redirect: lovata/youvegotmail/subscribers
+    redirectClose: lovata/youvegotmail/subscribers
+    flashSave: 'lovata.youvegotmail::lang.messages.user_update'
+    flashDelete: 'lovata.youvegotmail::lang.messages.user_delete'

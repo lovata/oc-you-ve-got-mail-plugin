@@ -1,0 +1,19 @@
+fields:
+    name:
+        label: 'lovata.youvegotmail::lang.fields.name'
+        span: left
+        required: 1
+        type: text
+    description:
+        label: 'lovata.youvegotmail::lang.fields.description'
+        span: left
+        type: textarea
+        size: small
+    subscribers:
+        span: full
+        path: ~/plugins/lovata/youvegotmail/controllers/categories/_subscribers.htm
+        context:
+            - update
+        type: partial
+        label: 'lovata.youvegotmail::lang.fields.subscriptions'
+

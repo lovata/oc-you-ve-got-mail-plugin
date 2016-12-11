@@ -1,0 +1,19 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+subscribers:
+    label: 'lovata.youvegotmail::lang.fields.subscriptions'
+    view:
+        list: $/lovata/youvegotmail/models/subscriber/columns.yaml
+        toolbarButtons: create|add|remove
+        showCheckboxes: true
+        showSearch: true
+        showSorting: true
+        recordsPerPage: 25
+    manage:
+        list: $/lovata/youvegotmail/models/subscriber/columns.yaml
+        form: $/lovata/youvegotmail/models/subscriber/fields.yaml
+        recordsPerPage: 25
+        showSearch: true
+        showSorting: true

@@ -1,0 +1,32 @@
+fields:
+    queue_title:
+        label: 'lovata.youvegotmail::lang.settings.queue_title'
+        span: left
+        default: mail
+        type: text
+    external_data_sources:
+        label: 'lovata.youvegotmail::lang.settings.external_data_sources'
+        prompt: 'lovata.youvegotmail::lang.settings.add_external_data_sources'
+        span: left
+        type: repeater
+        form:
+            fields:
+                name:
+                    label: 'lovata.youvegotmail::lang.fields.name'
+                    span: full
+                    type: text
+                source_class:
+                    label: 'lovata.youvegotmail::lang.fields.source_class'
+                    span: full
+                    type: text
+                    placeholder: '\Lovata\Shopaholic\Models\Category'
+                source_method:
+                    label: 'lovata.youvegotmail::lang.fields.source_method'
+                    span: full
+                    type: text
+                data_method:
+                    label: 'lovata.youvegotmail::lang.fields.data_method'
+                    span: full
+                    type: text
+
+

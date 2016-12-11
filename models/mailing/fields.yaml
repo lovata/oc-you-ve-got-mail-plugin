@@ -1,0 +1,41 @@
+fields:
+    name:
+        label: 'lovata.youvegotmail::lang.fields.name'
+        span: left
+        type: text
+    category:
+        label: 'lovata.youvegotmail::lang.fields.category'
+        nameFrom: name
+        span: left
+        type: relation
+        emptyOption: 'lovata.youvegotmail::lang.fields.empty_category'
+    template_id:
+        label: 'lovata.youvegotmail::lang.fields.template'
+        span: left
+        type: dropdown
+    data_source:
+        label: 'lovata.youvegotmail::lang.fields.addition_data'
+        span: left
+        default: handprint
+        type: dropdown
+    data_source_id:
+        label: 'lovata.youvegotmail::lang.fields.data_source_id'
+        span: left
+        dependsOn:
+            - data_source
+        trigger:
+            action: hide
+            field: data_source
+            condition: value[default]
+        type: dropdown
+    title:
+        label: 'lovata.youvegotmail::lang.fields.mail_title'
+        span: left
+        type: text
+
+    content:
+        label: 'lovata.youvegotmail::lang.fields.content'
+        size: huge
+        span: left
+        type: richeditor
+

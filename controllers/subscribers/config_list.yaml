@@ -1,0 +1,16 @@
+title: 'lovata.youvegotmail::lang.title.user_list'
+modelClass: Lovata\YouVeGotMail\Models\Subscriber
+list: $/lovata/youvegotmail/models/subscriber/columns.yaml
+recordUrl: 'lovata/youvegotmail/subscribers/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: '25'
+showSetup: true
+showCheckboxes: true
+showSorting: 1
+defaultSort:
+    column: id
+    direction: desc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

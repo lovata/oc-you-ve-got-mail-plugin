@@ -1,0 +1,24 @@
+plugin:
+    name: 'lovata.youvegotmail::lang.plugin.name'
+    description: 'lovata.youvegotmail::lang.plugin.description'
+    author: Lovata
+    icon: icon-envelope
+    homepage: 'https://github.com/lovata/you-ve-got-mail'
+navigation:
+    main-menu-item:
+        label: 'lovata.youvegotmail::lang.menu.main'
+        url: lovata/youvegotmail/mailings
+        icon: icon-envelope
+        sideMenu:
+            side-menu-item2:
+                label: 'lovata.youvegotmail::lang.menu.mailings'
+                url: lovata/youvegotmail/mailings
+                icon: icon-envelope-o
+            side-menu-item3:
+                label: 'lovata.youvegotmail::lang.menu.subscribers'
+                url: lovata/youvegotmail/subscribers
+                icon: icon-users
+            side-menu-item:
+                label: 'lovata.youvegotmail::lang.menu.categories'
+                url: lovata/youvegotmail/categories
+                icon: icon-sitemap

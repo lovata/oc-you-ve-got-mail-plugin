@@ -1,0 +1,12 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+category:
+    label: Category
+    view:
+        form: $/lovata/subscriptions/models/category/fields.yaml
+        toolbarButtons: link|unlink
+    manage:
+        form: $/lovata/subscriptions/models/category/fields.yaml
+        list: $/lovata/subscriptions/models/category/columns.yaml

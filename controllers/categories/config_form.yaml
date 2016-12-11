@@ -1,0 +1,16 @@
+name: Categories
+modelClass: Lovata\YouVeGotMail\Models\Category
+form: $/lovata/youvegotmail/models/category/fields.yaml
+defaultRedirect: lovata/youvegotmail/categories
+create:
+    title: 'lovata.youvegotmail::lang.title.category_create'
+    redirect: 'lovata/youvegotmail/categories/update/:id'
+    redirectClose: lovata/youvegotmail/categories
+    flashSave: 'lovata.youvegotmail::lang.messages.category_create'
+update:
+    title: 'lovata.youvegotmail::lang.title.category_update'
+    redirect: lovata/youvegotmail/categories
+    redirectClose: lovata/youvegotmail/categories
+    flashSave: 'lovata.youvegotmail::lang.messages.category_update'
+    flashDelete: 'lovata.youvegotmail::lang.messages.category_delete'
+preview: {  }

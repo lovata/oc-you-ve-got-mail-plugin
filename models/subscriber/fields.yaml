@@ -1,0 +1,21 @@
+fields:
+    email:
+        label: 'lovata.youvegotmail::lang.fields.email'
+        span: left
+        type: text
+    name:
+        label: 'lovata.youvegotmail::lang.fields.user_name'
+        span: left
+        type: text
+    surname:
+        label: 'lovata.youvegotmail::lang.fields.surname'
+        span: left
+        type: text
+    categories:
+        span: left
+        context:
+            - update
+            - preview
+        type: relation
+        nameFrom: name
+

@@ -1,0 +1,16 @@
+name: Mailings
+modelClass: Lovata\YouVeGotMail\Models\Mailing
+form: $/lovata/youvegotmail/models/mailing/fields.yaml
+defaultRedirect: lovata/youvegotmail/mailings
+create:
+    title: 'lovata.youvegotmail::lang.title.mailings_create'
+    redirect: 'lovata/youvegotmail/mailings/update/:id'
+    redirectClose: lovata/youvegotmail/mailings
+    flashSave: 'lovata.youvegotmail::lang.messages.mailings_create'
+update:
+    title: 'lovata.youvegotmail::lang.title.mailings_update'
+    redirect: lovata/youvegotmail/mailings
+    redirectClose: lovata/youvegotmail/mailings
+    flashSave: 'lovata.youvegotmail::lang.messages.mailings_update'
+    flashDelete: 'lovata.youvegotmail::lang.messages.mailings_delete'
+preview: {  }
