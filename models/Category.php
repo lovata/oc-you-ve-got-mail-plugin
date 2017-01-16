@@ -36,7 +36,7 @@ class Category extends Model
     protected $slugs = ['slug' => 'title'];
 
     public $belongsToMany = [
-        'subscribers' => ['Lovata\YouVeGotMail\Models\Subscriber', 'table' => 'lovata_youvegotmail_category_subscriber']
+        'subscribers' => ['Lovata\YouVeGotMail\Models\Subscriber', 'table' => 'lovata_youvegotmail_link']
     ];
 
     public $hasMany = [

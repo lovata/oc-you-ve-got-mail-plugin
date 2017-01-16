@@ -40,7 +40,7 @@ class Subscriber extends Model
      * @var array Relations
      */
     public $belongsToMany = [
-        'categories' => ['Lovata\YouVeGotMail\Models\Category', 'table' => 'lovata_youvegotmail_category_subscriber']
+        'categories' => ['Lovata\YouVeGotMail\Models\Category', 'table' => 'lovata_youvegotmail_link']
     ];
 
     public function __construct(array $attributes = [])
